@@ -70,6 +70,24 @@ export default class App {
     }
 
 
+    contarImparesDo(inicio, fin) {
+        let resultado,x;
+        resultado = 0;
+        x = inicio-1;
+        do {
+        x++;
+            if ((x % 2)==0) {
+                resultado = resultado + 1;
+            } else {
+                resultado = resultado;
+            }
+        } while (x<=fin);
+
+
+    return resultado;
+    }
+
+
 } // No Borrar - No Borrar
 
 
