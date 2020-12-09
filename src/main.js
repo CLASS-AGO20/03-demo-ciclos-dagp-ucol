@@ -39,6 +39,21 @@ export default class App {
     return resultado;
     }
 
+    contarImparesWhile(inicio, fin) {
+        let resultado;
+        resultado=0;
+        while (inicio<=fin) {
+       if ((inicio % 2)==0) {
+        resultado = resultado + 1;
+       } else {
+        resultado = resultado;
+       }
+       inicio++; 
+    }
+    return resultado;
+} 
+
+
 } // No Borrar - No Borrar
 
 
