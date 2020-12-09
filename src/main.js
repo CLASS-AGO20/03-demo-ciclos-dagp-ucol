@@ -12,7 +12,19 @@ export default class App {
     return resultado;
 }
 
-
+    contarImparesFor(inicio,fin) {
+        let resultado;
+        resultado=0;
+    for ( inicio ; inicio <= fin; inicio++) {
+       if ((inicio % 2)==0) {
+        resultado = resultado + 1;
+       } else {
+        resultado = resultado;
+       }
+        
+    }
+    return resultado;
+}
 
 } // No Borrar - No Borrar
 
