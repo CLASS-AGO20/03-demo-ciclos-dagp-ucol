@@ -54,6 +54,22 @@ export default class App {
 } 
 
 
+    sumarParesDo() {
+        let resultado,x;
+        x = 0; resultado = 0;
+    do {
+        x++;
+        if ((x % 2)==0) {
+            resultado = resultado + x;
+        } else {
+            resultado = resultado;
+        }
+
+    } while (x<=20);
+    return resultado;
+    }
+
+
 } // No Borrar - No Borrar
 
 
