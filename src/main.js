@@ -26,6 +26,19 @@ export default class App {
     return resultado;
 }
 
+    sumarParesWhile() {
+        let resultado,x;
+        resultado = 0, 
+        x = 1;
+        while (x<=20) {
+            if ((x % 2)==0) {
+                resultado = resultado + x;
+            }
+            x = x+1;
+        }
+    return resultado;
+    }
+
 } // No Borrar - No Borrar
 
 
